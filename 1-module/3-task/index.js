@@ -17,14 +17,6 @@ function getMinMax(str) {
 		};
 		if (str[index].indexOf(",") !== -1 || str[index].indexOf(" ") !== -1 || index === str.length - 1) {
       result.push(+temp);
-			// if (temp && +temp <= min) {
-			// 	min = +temp;
-			// 	temp = "";
-			// }
-			// if (temp && +temp >= max) {
-			// 	max = +temp;
-			// 	temp = "";
-			// }
 			temp = "";
 		}
 		index++;
