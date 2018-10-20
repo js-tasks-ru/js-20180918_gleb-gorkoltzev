@@ -8,8 +8,6 @@
 function getMinMax(str) {
   let temp = "",
       result = [],
-			// min = 0,
-			// max = 0,
 			index = 0;
 	while (index < str.length) {
 		if (str[index].match(/[-\d.]/)) {
