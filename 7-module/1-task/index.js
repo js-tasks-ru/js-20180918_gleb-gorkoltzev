@@ -16,9 +16,3 @@ function makeLogging(fn, log) {
     return fn(...arguments);
   }
 }
-// 
-// let log = [];
-// let work = makeLogging(function (a,b) {return a + b;}, log);
-// work(1,2);
-//
-// console.log(log[0][0] === 1, log[0][1] === 2);
