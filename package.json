@@ -29,7 +29,8 @@
     "karma-phantomjs-launcher": "^1.0.4"
   },
   "dependencies": {
-    "webpack": "^4.15.1",
+    "npm": "^6.4.1",
+    "webpack": "^4.23.1",
     "webpack-cli": "^3.0.8"
   }
 }

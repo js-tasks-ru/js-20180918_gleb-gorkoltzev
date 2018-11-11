@@ -8,5 +8,11 @@
  * @return {Function}
  */
 function makeLogging(fn, log) {
-
+  return function() {
+    log.push(arguments);
+    if (this) {
+      return fn.apply(this, ...arguments);
+    }
+    return fn(...arguments);
+  }
 }
